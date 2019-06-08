@@ -2,9 +2,8 @@ version: 0.2
 
 phases:
   install:
-    runtime-versions:
-      runtime:
-      nodejs: 10
+    runtime-versions: 10
+    runtime: nodejs
 
 artifacts:
   files:
